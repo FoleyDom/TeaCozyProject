@@ -1,0 +1,242 @@
+/* Global Setting */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Nav Section */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  border-bottom: 1px solid seashell;
+  position: sticky;
+  height: 69px;
+}
+
+.logo {
+  margin-right: auto;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.nav_link {
+  list-style: none;
+}
+
+.nav_link li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+/* Mission Section */
+
+.container {
+  display: flex;
+  position: relative;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: black;
+}
+
+/* Tea of the Month Section */
+
+main {
+  width: 100%;
+}
+
+.featured_tea {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.container_totm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  padding-bottom: 20px;
+}
+
+.container_totm h2 {
+  margin: 2% 0;
+}
+
+.figure_container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  overflow: hidden;
+  margin: 1%;
+}
+
+figure img {
+  width: 300px;
+  max-width: 100%;
+  height: 200px;
+  display: block;
+}
+
+figcaption {
+  margin-top: 3.334%;
+  text-align: center;
+}
+
+/* Location */
+
+.location {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  background-image: url("/imgs/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1200px;
+}
+
+.locations_title {
+  position: absolute;
+  padding-bottom: 350px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.locations-title h2 {
+  background: transparent;
+}
+
+.locations-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  flex-wrap: row wrap;
+  opacity: 1;
+}
+
+.adress {
+  margin: 20px;
+  display: flex;
+  position: absolute;
+  flex-basis: 300px;
+  flex-direction: column;
+  opacity: 1;
+  background-color: black;
+}
+
+.adress h3 {
+  padding: 5% 0;
+}
+
+.adress p {
+  padding: 7.5% 0;
+}
+
+#downtown {
+  position: relative;
+  right: 375px;
+  top: 330px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#bayside {
+  position: relative;
+  top: 11px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#oakdale {
+  position: relative;
+  left: 400px;
+  bottom: 309px;
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*contact info section*/
+
+.contact {
+  height: 200px;
+  margin: 0 auto;
+  width: 75%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact h2 {
+  margin: 1% auto;
+}
+
+.contact h5 {
+  margin: 2.9% auto;
+}
+
+/*footer*/
+
+footer {
+  padding: 20px;
+  display: flex;
+}
