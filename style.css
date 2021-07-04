@@ -134,7 +134,7 @@ figcaption {
   display: flex;
   width: 1200px;
   height: 500px;
-  background-image: url("/imgs/img-locations-background.jpg");
+  background-image: url("imgs/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
